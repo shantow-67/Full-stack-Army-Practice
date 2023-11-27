@@ -1,0 +1,10 @@
+.button{
+            font-size: 1rem;
+            font-family: cursive;
+            font-weight: 700;
+            letter-spacing: 1px;
+            border:none;
+            cursor: pointer;
+            border-radius: 0.20rem;
+            margin-right:1rem;
+}
