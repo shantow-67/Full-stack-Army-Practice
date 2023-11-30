@@ -18,6 +18,8 @@ const formFields = {
     },
 };
 
+
+// Make a new Object that contains Value which is only needed in this state
 const transFormedObject = obj => {
     return Object.keys(obj).reduce((acc, cur) => {
         acc[cur] = {
@@ -28,29 +30,19 @@ const transFormedObject = obj => {
     }, {});
 };
 
+// Make an Array to looping the form feilds
 const mapObjectToArray = obj => {
     return Object.keys(obj).map((key) => ({ name: key, ...obj[key] }));
 };
-console.log(Object.keys(formFields))
-// const mapObjectToArray = (obj) => {
-// 	return Object.keys(obj).map((key) => ({ name: key, ...obj[key] }));
-// };
+
+
 
 function DynamicForm() {
     const [formState, setFormState] = useState(transFormedObject(formFields));
-   console.log("form state===" ,formState);
+//   Form State keeps an Objects for accesing as need
     const formData = mapObjectToArray(formState);
-    console.log("form data===",formData)
+//   Form Data keeps an Array so that we can loop this Array and produce forms feilds dynamically
 
-    // const handleSubmit = (event) => {
-	// 	event.preventDefault();
-	// 	const values = Object.keys(formState).reduce((acc, cur) => {
-	// 		acc[cur] = formState[cur].value;
-	// 		return acc;
-	// 	}, {});
-
-	// 	console.log(values);
-	// };
     const handleSubmit = (e) => {
         e.preventDefault();
         const values = Object.keys(formState).reduce((acc, cur) => {
@@ -60,15 +52,7 @@ function DynamicForm() {
 
         console.log(values);
     };
-// const handleChange = (event) => {
-// 		setFormState({
-// 			...formState,
-// 			[event.target.name]: {
-// 				...formState[event.target.name],
-// 				value: event.target.value,
-// 			},
-// 		});
-// 	};
+
     const handleChange = (e) => {
         setFormState(
             {

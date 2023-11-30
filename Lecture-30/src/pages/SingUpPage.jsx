@@ -32,13 +32,25 @@ const SingUpPage = () => {
       </div>
 
       <form>
-        <InputGroup label="What is your name?" name="name" type="text" />
-        <InputGroup label="What is your email?" name="email" type="email" />
+        <InputGroup
+          label="What is your name?"
+          name="name"
+          type="text"
+          placeholder="Type your name"
+        />
+        <InputGroup
+          label="What is your email?"
+          name="email"
+          type="email"
+          placeholder="Type your email"
+        />
         <InputGroup
           label="Set your Password?"
           name="password"
           type="password"
+          placeholder="password"
         />
+        <InputGroup label="Set your Password?" />
         <div>
           <Button text="Submit" type="submit" varient="primary" size="small" />
           <Button text="Reset" type="reset" varient="danger" size="medium" />
