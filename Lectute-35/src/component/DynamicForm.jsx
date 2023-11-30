@@ -52,7 +52,7 @@ function DynamicForm() {
 
         console.log(values);
     };
-
+// handling all input changes with one Function
     const handleChange = (e) => {
         setFormState(
             {
