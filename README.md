@@ -3,7 +3,7 @@
 
 I'm totally convinced that , If someone complete this most Advanced web development playlist there is no time to look back, he/she is moving forward to a bright future in development career with a vast knowledge of engineering in front end and back end as well. 
 
-My mission is to acheive the frond end development core knowledge throughout the journey.
+My mission is to acheive the front end development core knowledge throughout the journey.
 
 
 ## Acknowledgements
