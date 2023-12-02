@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.task-group {
+    display: flex;
+}
+.task-wrapper {
+    background-color: rgb(245, 223, 195);
+    width: 30%;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.date {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.line {
+    width: 90%;
+    height: 5px;
+    background-color: black;
+    margin: 10px auto;
+    border-radius: 0.25rem;
+}
+.task-item {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.comments {
+    margin: 1rem auto;
+}
