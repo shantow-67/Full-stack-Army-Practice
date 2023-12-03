@@ -1,3 +1,3 @@
 # JSON to JSX
 
-!["SS"]("./img/ss.png")
+!["SS"](./img/ss.png)
