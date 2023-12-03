@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+    box-shadow: azure;
+}
+h1 {
+    text-align: center;
+}
+
+.input {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    margin: 0.5rem 2rem;
+}
+
+.btn-group {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.btn {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+
+.hitory {
+    padding-left: 2rem;
+}
+
+.list {
+    padding: 1rem;
+    font-size: 1rem;
+}
