@@ -81,7 +81,7 @@ const App = () => {
 
     return (
         <div className="container">
-            <h3>Lecture-38</h3>
+            <h3>Lecture-39</h3>
             <h1>Calculator that can restore history</h1>
 
             <InputSection
